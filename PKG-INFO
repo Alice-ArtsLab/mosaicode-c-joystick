@@ -1,0 +1,20 @@
+Metadata-Version: 1.0
+Name: Mosaicode Javascript/WebAudio
+Version: 1.0
+Summary: Computer Music Programming Tool
+Home-page: https://mosaicode.github.io/
+Author: Mosaicode Group
+Author-email: mosaicode-dev@googlegroups.com
+License: GNU GPL
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Javascript
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Code Generators

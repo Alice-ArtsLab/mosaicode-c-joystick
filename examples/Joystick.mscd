@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosaicode>
+ <version value="0.0.1"/>
+ <zoom value="1.0"/>
+ <language value="c"/>
+ <blocks>
+  <block collapsed="False" id="1" type="mosaicode_lib_c_joystick.extensions.blocks.joystick">
+   <position x="150.0" y="250.0"/>
+   <property key="device" value="/dev/input/js0"/>
+  </block>
+  <block collapsed="False" id="6" type="mosaicode_lib_c_opengl.extensions.blocks.Math.addfloat">
+   <position x="400.0" y="50.0"/>
+  </block>
+  <block collapsed="False" id="7" type="mosaicode_lib_c_opengl.extensions.blocks.Math.printfloat">
+   <position x="750.0" y="50.0"/>
+  </block>
+ </blocks>
+ <connections>
+  <connection from_block="1" from_out="0" to_block="6" to_in="0"/>
+  <connection from_block="1" from_out="1" to_block="6" to_in="1"/>
+  <connection from_block="6" from_out="2" to_block="7" to_in="0"/>
+ </connections>
+ <comments/>
+</mosaicode>
